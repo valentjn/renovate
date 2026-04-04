@@ -22,5 +22,4 @@ This repository contains a GitHub Actions workflow that runs Renovate on select 
    }
    ```
 
-3. Add the repository to the PAT [`VALENTJN_RENOVATE_PAT`](https://github.com/settings/personal-access-tokens/13129399).
-4. Add the repository to [`renovate-self-hosted.json`](renovate-self-hosted.json) in this repository.
+3. Add the repository to [`renovate-self-hosted.json`](renovate-self-hosted.json) in this repository.
