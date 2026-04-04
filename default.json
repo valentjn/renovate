@@ -1,0 +1,36 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "automerge": true,
+    "automergeStrategy": "squash",
+    "automergeType": "branch",
+    "commitMessageAction": "Upgrade",
+    "commitMessageTopic": "{{depName}}",
+    "gitAuthor": "Renovate <renovate@example.com>",
+    "minimumReleaseAge": "14 days",
+    "packageRules": [
+        {
+            "groupName": "CDN",
+            "matchDatasources": ["cdnjs"]
+        },
+        {
+            "groupName": "Docker",
+            "matchDatasources": ["docker"]
+        },
+        {
+            "groupName": "GitHub Actions",
+            "matchDatasources": ["github-tags"]
+        },
+        {
+            "groupName": "npm",
+            "matchDatasources": ["npm"]
+        },
+        {
+            "groupName": "PyPI",
+            "matchDatasources": ["pypi"]
+        },
+        {
+            "groupName": "Python",
+            "matchPackageNames": ["python"]
+        }
+    ]
+}

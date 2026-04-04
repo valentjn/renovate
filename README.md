@@ -12,6 +12,14 @@ This repository contains a GitHub Actions workflow that runs Renovate on select 
 ## Adding a Repository
 
 1. Make sure that pull requests are enabled in the settings of the repository to be added (can be set to collaborator only). Otherwise, Renovate will error.
-2. Copy `.github/renovate.json` from another repository that has Renovate already enabled to the repository to be added.
+2. Create `.github/renovate.json` in the repository to be added with the following contents:
+
+   ```json
+   {
+       "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+       "extends": ["github>valentjn/renovate"]
+   }
+   ```
+
 3. Add the repository to the PAT [`VALENTJN_RENOVATE_PAT`](https://github.com/settings/personal-access-tokens/13129399).
 4. Add the repository to [`renovate-self-hosted.json`](renovate-self-hosted.json) in this repository.
