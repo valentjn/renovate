@@ -1,0 +1,7 @@
+{
+    "autodiscover": true,
+    "autodiscoverFilter": [
+        "valentjn/disce",
+        "valentjn/rpi-docker"
+    ]
+}
