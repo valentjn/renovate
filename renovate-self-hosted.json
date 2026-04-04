@@ -2,6 +2,7 @@
     "autodiscover": true,
     "autodiscoverFilter": [
         "valentjn/disce",
+        "valentjn/renovate",
         "valentjn/rpi-docker"
     ]
 }
