@@ -1,0 +1,9 @@
+overrides:
+  - files:
+      - .prettierrc
+      - "*.md"
+      - "*.yml"
+    options:
+      tabWidth: 2
+printWidth: 120
+tabWidth: 4

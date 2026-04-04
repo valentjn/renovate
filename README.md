@@ -14,6 +14,7 @@ This repository contains a GitHub Actions workflow that runs Renovate on select 
 1. Make sure that pull requests are enabled in the settings of the repository to be added (can be set to collaborator only). Otherwise, Renovate will error.
 2. Create `.github/renovate.json` in the repository to be added with the following contents:
 
+   <!-- prettier-ignore -->
    ```json
    {
        "$schema": "https://docs.renovatebot.com/renovate-schema.json",

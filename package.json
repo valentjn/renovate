@@ -1,0 +1,10 @@
+{
+    "devDependencies": {
+        "prettier": ">=3.8.1"
+    },
+    "scripts": {
+        "fmt:check": "npx prettier --check .",
+        "fmt:prettier": "npx prettier --write .",
+        "fmt": "npm run fmt:prettier"
+    }
+}
