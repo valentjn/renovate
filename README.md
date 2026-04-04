@@ -22,4 +22,4 @@ This repository contains a GitHub Actions workflow that runs Renovate on select 
    }
    ```
 
-3. Add the repository to [`renovate-self-hosted.json`](renovate-self-hosted.json) in this repository.
+3. Add the repository to [`self-hosted.json`](self-hosted.json) in this repository.
