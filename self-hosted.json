@@ -1,4 +1,5 @@
 {
+    "$schema": "https://docs.renovatebot.com/renovate-global-schema.json",
     "autodiscover": true,
     "autodiscoverFilter": [
         "valentjn/disce",
