@@ -7,8 +7,9 @@
 name: Renovate
 on:
   schedule:
-    # run twice: once for creating branches, and then again for automerging after the CI checks have passed
-    - cron: 24,54 8 * * 6
+    # need to run once for creating the branches, and then again once to automerge each created branch one-by-one after
+    # the CI checks have passed
+    - cron: 24 */2 * * *
   workflow_dispatch:
 permissions:
   contents: read
