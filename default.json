@@ -18,7 +18,7 @@
         },
         {
             "groupName": "GitHub Actions",
-            "matchDatasources": ["github-tags"]
+            "matchDepTypes": ["action"]
         },
         {
             "groupName": "npm",
