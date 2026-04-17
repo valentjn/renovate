@@ -6,7 +6,7 @@
     "commitMessageAction": "Upgrade",
     "commitMessageTopic": "{{depName}}",
     "gitAuthor": "Renovate <renovate@example.com>",
-    "minimumReleaseAge": "14 days",
+    "minimumReleaseAge": "7 days",
     "pinDigests": true,
     "packageRules": [
         {
