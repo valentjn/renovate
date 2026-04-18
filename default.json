@@ -4,10 +4,13 @@
     "automergeStrategy": "squash",
     "automergeType": "branch",
     "commitMessageAction": "Upgrade",
-    "commitMessageTopic": "{{depName}}",
     "gitAuthor": "Renovate <renovate@example.com>",
     "minimumReleaseAge": "7 days",
     "packageRules": [
+        {
+            "commitMessageTopic": "{{depName}}",
+            "matchPackageNames": ["*"]
+        },
         {
             "groupName": "CDN",
             "matchDatasources": ["cdnjs"]
