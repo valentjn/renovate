@@ -4,10 +4,14 @@
     "automergeStrategy": "squash",
     "automergeType": "branch",
     "commitMessageAction": "Upgrade",
-    "commitMessageTopic": "{{depName}}",
     "gitAuthor": "Renovate <renovate@example.com>",
     "minimumReleaseAge": "7 days",
     "packageRules": [
+        {
+            "description": "use dependency name without suffixes for commit messages",
+            "commitMessageTopic": "{{depName}}",
+            "matchPackageNames": ["*"]
+        },
         {
             "groupName": "CDN",
             "matchDatasources": ["cdnjs"]
