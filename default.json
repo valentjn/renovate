@@ -7,7 +7,6 @@
     "commitMessageTopic": "{{depName}}",
     "gitAuthor": "Renovate <renovate@example.com>",
     "minimumReleaseAge": "7 days",
-    "pinDigests": true,
     "packageRules": [
         {
             "groupName": "CDN",
@@ -33,5 +32,6 @@
             "groupName": "Python",
             "matchPackageNames": ["python"]
         }
-    ]
+    ],
+    "pinDigests": true
 }
