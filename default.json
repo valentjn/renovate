@@ -19,6 +19,7 @@
         "enabled": true
     },
     "minimumReleaseAge": "7 days",
+    "minimumReleaseAgeBehaviour": "timestamp-optional",
     "packageRules": [
         {
             "description": "use dependency name without suffixes for commit messages",
