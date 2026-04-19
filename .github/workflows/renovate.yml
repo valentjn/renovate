@@ -24,7 +24,7 @@ jobs:
         uses: renovatebot/github-action@eb932558ad942cccfd8211cf535f17ff183a9f74 # v46.1.9
         with:
           configurationFile: self-hosted.json
-          renovate-version: 43.129.0@sha256:e4abd88d1d6326fe8a702b38c5ee76487d94b455ba4f305bd904521aba9f5a08 # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate
+          renovate-version: 43.141.5@sha256:8fb9e3cfdadc0994fb87f57be624d1c1940c41c1c53c074465caff85a2b6d3a4 # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate
           token: ${{ secrets.VALENTJN_RENOVATE_PAT }}
         env:
           LOG_LEVEL: debug
