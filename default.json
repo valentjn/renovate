@@ -5,6 +5,9 @@
     "automergeType": "branch",
     "commitMessageAction": "Upgrade",
     "gitAuthor": "Renovate <renovate@example.com>",
+    "git-submodules": {
+        "enabled": true
+    },
     "minimumReleaseAge": "7 days",
     "packageRules": [
         {
