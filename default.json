@@ -4,6 +4,16 @@
     "automergeStrategy": "squash",
     "automergeType": "branch",
     "commitMessageAction": "Upgrade",
+    "customManagers": [
+        {
+            "customType": "regex",
+            "description": "Update versions in GitHub Actions workflows",
+            "managerFilePatterns": ["/^\\.github/workflows/[^/]+\\.ya?ml$/"],
+            "matchStrings": [
+                ": (?<currentValue>.+?)(?:@(?<currentDigest>.+?))? # renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName|lookupName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s"
+            ]
+        }
+    ],
     "gitAuthor": "Renovate <renovate@example.com>",
     "git-submodules": {
         "enabled": true
