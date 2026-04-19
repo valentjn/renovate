@@ -1,5 +1,11 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-global-schema.json",
     "autodiscover": true,
-    "autodiscoverFilter": ["valentjn/disce", "valentjn/renovate", "valentjn/scripts", "valentjn/rpi-docker"]
+    "autodiscoverFilter": [
+        "valentjn/disce",
+        "valentjn/renovate",
+        "valentjn/scripts",
+        "valentjn/rpi-docker",
+        "valentjn/simeshse"
+    ]
 }
