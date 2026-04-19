@@ -6,6 +6,7 @@
 
 name: Renovate
 on:
+  push:
   schedule:
     # need to run once for creating the branches, and then again once to automerge each created branch one-by-one after
     # the CI checks have passed
