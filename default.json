@@ -49,6 +49,11 @@
         {
             "groupName": "Python",
             "matchPackageNames": ["python"]
+        },
+        {
+            "description": "slow down Renovate releases",
+            "matchDepNames": ["ghcr.io/renovatebot/renovate"],
+            "schedule": ["* 0-3 * * 6"]
         }
     ],
     "pinDigests": true,
