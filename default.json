@@ -10,7 +10,7 @@
             "customType": "regex",
             "managerFilePatterns": ["/^\\.github/workflows/[^/]+\\.ya?ml$/"],
             "matchStrings": [
-                ": (?<currentValue>.+?)(?:@(?<currentDigest>.+?))? # renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName|lookupName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s"
+                ": +(?<currentValue>[^@\\s]+)(?:@(?<currentDigest>[^\\s]+))? +# +renovate: +datasource=(?<datasource>[^\\s]+) +depName=(?<depName>[^\\s]+)(?: +(?:packageName|lookupName)=(?<packageName>[^\\s]+))?(?: +versioning=(?<versioning>[^\\s]+))?"
             ]
         }
     ],
