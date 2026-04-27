@@ -4,8 +4,8 @@
     "autodiscoverFilter": [
         "valentjn/disce",
         "valentjn/renovate",
-        "valentjn/scripts",
         "valentjn/rpi-docker",
+        "valentjn/scripts",
         "valentjn/simeshse"
     ]
 }
